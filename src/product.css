@@ -1,0 +1,49 @@
+/* product.css */
+
+.products {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.products h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.products div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.products img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.products .product-details {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.products .product-details h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.products .product-details p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.products .product-details button {
+  padding: 5px 10px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
